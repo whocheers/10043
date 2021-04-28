@@ -1,6 +1,17 @@
 <footer class="footer">
   <div class="container has-text-centered">
     <div class="columns">
+      <div class="column is-full">
+        <a href="https://github.com/Xivid/10043">
+        {{ site.data.translations.footer.source-code-link[page.lang] }}
+        </a>
+        <span class="footer__dot">∙</span>
+        Template by courtesy of 
+        <a href="https://pariscall.international">Paris Call</a>
+      </div>
+    </div>
+
+    <div class="columns">
         <div class="column is-full">
           {% for lang in site.available_languages %}
           {% if forloop.index > 1 %}<span class="footer__dot">∙</span>{% endif %}
