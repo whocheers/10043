@@ -1,0 +1,75 @@
+<article class="media event">
+  <div class="media-content">
+    <header class="media-header">
+      <h4 class="title is-6">{{ include.event.name }}</h4>
+      <div class="level">
+        {% capture start_date_day %}{{ include.event.start_date | date: '%A'}}{% endcapture %}
+        {% capture end_date_day %}{{ include.event.end_date | date: '%A'}}{% endcapture %}
+        {% capture start_date_month %}{{ include.event.start_date | date: '%B'}}{% endcapture %}
+        {% capture end_date_month %}{{ include.event.end_date | date: '%B'}}{% endcapture %}
+        {% capture start_date_year %}{{ include.event.start_date | date: '%Y'}}{% endcapture %}
+        {% capture end_date_year %}{{ include.event.end_date | date: '%Y'}}{% endcapture %}
+        <div class="level-left">
+          <div class="date">
+            <div class="date__day">
+              {{ include.event.start_date | date: "%d"}}{%if include.event.end_date != include.event.start_date %}-{{ include.event.end_date | date: "%d"}}{% endif %}
+            </div>
+            <div class="date__date">
+              <div class="date__month">
+                {%if start_date_month != end_date_month %}
+                {{ site.data.translations.dates.months.short[start_date_month][page.lang] }}-{{ site.data.translations.dates.months.short[end_date_month][page.lang] }}
+                {% else %}
+                {{ site.data.translations.dates.months.long[start_date_month][page.lang] }}
+                {% endif %}
+                {{ include.event.start_date | date: "%Y"}}{%if start_date_year != end_date_year %}-{{ include.event.end_date | date: "%y"}}{% endif %}
+              </div>
+              <div class="date__weekday">
+                {{ site.data.translations.dates.days.long[start_date_day][page.lang] }}{%if include.event.end_date != include.event.start_date %}-{{ site.data.translations.dates.days.long[end_date_day][page.lang] }}{% endif %}
+              </div>
+            </div>
+          </div>
+          {% if include.event.address contains '://' %}
+          <a class="location" target="_blank"
+            href="{{ include.event.address }}">
+            <i class="location__icon icon icon-network"></i>
+            <span class="location__text">
+              {{ site.data.translations.events.event-online[page.lang] }}
+            </span>
+          </a>
+          {% else %}
+          <span class="location">
+            <i class="location__icon icon icon-marker"></i>
+            <span class="location__text">{{ include.event.address }}<br />
+              <small>
+                {%if include.event.city %}{{ include.event.city }},{% endif %}
+                {%if include.event.country %}{{ include.event.country }}{% endif %}
+              </small>
+            </span>
+          </span>
+          {% endif %}
+        </div>
+        {% if include.event.type == 'invitation' %}
+        <div class="level-right">
+          <span class="tag">{{ site.data.translations.events.by-invitation-only[page.lang] }}</span>
+        </div>
+        {% endif %}
+      </div>
+    </header>
+    <div class="content">
+      {{ include.event.content | markdownify }}
+      <div class="level">
+        <div class="level-left">
+          <small><a href="{{ include.event.link }}">{{ include.event.link_title }}</a></small>
+        </div>
+        <div class="level-right">
+          <small>
+            <a class="button is-link is-light is-small is-rounded" href="{{ include.event.url }}">
+              <span class="icon is-small"><i class="icon icon-calendar-plus-o" aria-hidden="true"></i></span>
+              <span>{{ site.data.translations.events.add-to-calendar-button[page.lang] }}</span>
+            </a>
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,63 @@
+# This file is *NOT* reloaded automatically when you use 'jekyll serve'.
+# If you change this file, please restart the server process.
+include: ['_pages']
+
+baseurl: ""
+url: https://10043.org/
+
+supporter_categories: [ state, public-authority, private-sector, civil-society ]
+available_languages: [ en, zh ]
+typeform_urls:
+  support:
+    en: https://ambanum.typeform.com/to/qjm1oJ
+    zh: https://ambanum.typeform.com/to/Y5eTGr
+  event:
+    en: https://ambanum.typeform.com/to/Gqi5uB
+    zh: https://ambanum.typeform.com/to/OYvfQd
+
+collections:
+  events:
+    output: true
+  supporters:
+
+defaults:
+  - scope:
+      path: _events
+    values:
+      layout: event
+      permalink: events/:name.ics
+  - scope:
+      path: _pages
+    values:
+      layout: page
+  - scope:
+      path: _pages/en
+    values:
+      lang: en
+  - scope:
+      path: _pages/zh
+    values:
+      lang: zh
+  - scope:
+      path: _pages/en/by-email
+    values:
+      layout: by-email
+  - scope:
+      path: _pages/zh/by-email
+    values:
+      layout: by-email
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+exclude:
+  - vendor
+  - README.md
+  - .circleci
+  - .gitignore
+  - .ruby_version
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jekyll-environment-variables

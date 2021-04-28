@@ -1,0 +1,21 @@
+calendar-dropdown:
+  en: Calendar
+  zh: 日历
+download-calendar-dropdown-item:
+  en: Download iCal file
+  zh: 下载iCal日历
+subscribe-to-calendar-dropdown-item:
+  en: Subscribe to calendar
+  zh: 订阅日历
+subscribe-alternative-dropdown-item:
+  en: "If your system does not support the subscription link, here is the URL:"
+  zh: "或点击此链接:"
+add-to-calendar-button:
+  en: Download iCal file
+  zh: 下载iCal日历
+event-online:
+  en: Online event
+  zh: 在线行动
+by-invitation-only:
+  en: By invitation only
+  zh: 仅经邀请

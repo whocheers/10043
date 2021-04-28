@@ -1,0 +1,40 @@
+supporter:
+  success:
+    title:
+      en: Thank you for confirming your address
+      zh: 感谢确认地址
+    subtitle:
+      en: Your support has been taken into account! You will receive an email as soon as it becomes publicly visible.
+      zh: 已经记录您的支持！一经审核，您会收到邮件确认。
+  error:
+    title:
+      en: Something went wrong
+      zh: 出错了
+    subtitle:
+      en: Your email could not be confirmed, please try again in a few minutes. If you keep seeing this error, <a href="mailto:contact@10043.org?subject=Cannot%20confirm%20my%20email">send us an email</a>.
+      zh: 无法确认您的邮箱，请过几分钟再试。 如果一直出现此错误，请联系<a href="mailto:contact@10043.org?subject=无法确认邮箱">此邮箱</a>.
+event:
+  success:
+    title:
+      en: Thank you for confirming your event
+      zh: 感谢确认行动
+    subtitle:
+      en: We have received your event suggestion. We will review it and send you an email as soon as it becomes publicly visible.
+      zh: 已经收到您的行动建议。一经审核，您会收到邮件确认。
+  error:
+    title:
+      en: Something went wrong
+      zh: 出错了
+    subtitle:
+      en: Your email could not be confirmed, please try again in a few minutes. If you keep seeing this error, <a href="mailto:contact@10043.org?subject=Cannot%20confirm%20my%20email">send us an email</a>.
+      zh: 无法确认您的行动，请过几分钟再试。 如果一直出现此错误，请联系<a href="mailto:contact@10043.org?subject=无法确认邮箱">此邮箱</a>.
+expired:
+  title:
+    en: Confirmation link expired
+    zh: 确认链接已过期
+  subtitle-before-link:
+    en: Please fill again
+    zh: 请重新填写
+  subtitle-link:
+    en: the form
+    zh: 表格

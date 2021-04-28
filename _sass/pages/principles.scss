@@ -1,0 +1,50 @@
+.principles-page {
+  .principle {
+    margin-top: 1em;
+    @media screen and (min-width: 1024px) {
+      padding: 7rem 1.5rem;
+    }
+
+    &:before {
+      border-top: 1px solid darken($blue-900, 5%);
+    }
+  }
+
+  .index {
+    color: darken($blue-900, 15%);
+    position: absolute;
+    left: 1.5rem;
+    bottom: 0;
+    transform: translateY(10.5em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__prefix {
+      font-size: 2em;
+      font-weight: 400;
+      font-variant: all-small-caps;
+      vertical-align: middle;
+    }
+    &__number {
+      font-weight: 400;
+      font-size: 21em;
+      vertical-align: middle;
+      line-height: 0.9;
+    }
+  }
+
+  .index-mobile {
+    font-variant: all-small-caps;
+    color: darken($blue-900, 15%);
+  }
+
+  .case-study {
+    @include desktop {
+      &:nth-child(4n) .columns {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}

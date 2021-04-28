@@ -1,0 +1,42 @@
+---
+layout: null
+title: 争取学术自由，取消10043禁令
+description:
+permalink: /
+---
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+		<title>{{ page.title }}</title>
+		<meta name="description" content="{{ page.description }}">
+
+		<link rel="icon" href="{{site.baseurl}}/assets/images/favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<noscript>
+			<meta http-equiv="refresh" content="0; URL=/en">
+		</noscript>
+	</head>
+
+	<body>
+		<script>
+			let lang = navigator.language || navigator.userLanguage;
+			lang = lang.split('-')[0];
+			switch (lang) {
+				{% for lang in site.available_languages %}
+				case '{{lang}}': window.location = '/{{lang}}'; break;
+				{% endfor %}
+				default: window.location = '/en'; break;
+			}
+		</script>
+
+		{% for lang in site.available_languages %}
+			<h2>{{ site.data.translations.redirect.should-be-redirected[lang] }}</h2>
+			<p>{{ site.data.translations.redirect.if-not-auto[lang] }}</p>
+			<hr/>
+		{% endfor %}
+	</body>
+</html>

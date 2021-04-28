@@ -1,0 +1,27 @@
+already-supported-by:
+  en: We are already supported by
+  zh: 感谢以下支持
+# and-local-governments:
+#   en: and local governments
+#   zh: et administrations territoriales
+# and-members-of-civil-society:
+#   en: and members of civil society
+#   zh: et membres de la société civile
+# and-private-sector-entities:
+#   en: and private sector entities
+#   zh: et entités du secteur privé
+companies:
+  en: Companies
+  zh: 个公司
+organizations:
+  en: Organizations
+  zh: 个社会团体
+public-authorities:
+  en: Public authorities
+  zh: 位公权人员
+see-supporters:
+  en: See all supporters
+  zh: 查看所有支持者
+states:
+  en: States
+  zh: 位学生/学者

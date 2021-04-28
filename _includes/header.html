@@ -1,0 +1,91 @@
+{% assign homeUrl = '/' | prepend: page.lang | prepend: '/' %}
+{% assign principlesUrl = '/principles' | prepend: page.lang | prepend: '/' %}
+{% assign callUrl = '/call' | prepend: page.lang | prepend: '/' %}
+{% assign supportersUrl = '/supporters' | prepend: page.lang | prepend: '/' %}
+{% assign supportUrl = '/support' | prepend: page.lang | prepend: '/' %}
+
+<nav class="main-navbar navbar" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="tabs is-fullwidth is-hidden-desktop">
+      <ul>
+        <li class="{% if page.url == homeUrl %}is-active{% endif %}">
+          <a href="{{ homeUrl | relative_url }}" aria-label="{{ site.data.translations.menu.home[page.lang] }}"><i class="icon icon-home" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="{% if page.url == principlesUrl %}is-active{% endif %}">
+          <a href="{{ principlesUrl | relative_url }}">{{ site.data.translations.menu.principles[page.lang] }}</a>
+        </li>
+        <li class="{% if page.url == callUrl %}is-active{% endif %}">
+          <a href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
+        </li>
+        <li class="{% if page.url == supportersUrl %}is-active{% endif %}">
+          <a href="{{ supportersUrl | relative_url }}">{{ site.data.translations.menu.supporters[page.lang] }}</a>
+        </li>
+        <li class="{% if page.url == supportUrl %}is-active{% endif %}">
+          <a href="{{ supportUrl | relative_url }}">{{ site.data.translations.menu.support[page.lang] }}</a>
+        </li>
+      </ul>
+      <ul>
+        {% for lang in site.available_languages %}
+        <li class="lang-item">
+          <a href="{{ page.url | replace_first: page.lang, lang | relative_url }}" class="{% if lang == page.lang %}is-active{% endif %}">
+            {{ site.data.translations.lang[lang] }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div id="navbar-menu" class="navbar-menu is-size-5 is-hidden-touch">
+      <div class="navbar-start">
+        <a class="navbar-item {% if page.url == homeUrl %}is-active{% endif %}"
+          href="{{ homeUrl | relative_url }}">{{ site.data.translations.menu.home[page.lang] }}</a>
+
+        <a class="navbar-item {% if page.url == principlesUrl %}is-active{% endif %}"
+          href="{{ principlesUrl | relative_url }}">{{ site.data.translations.menu.principles[page.lang] }}</a>
+
+        <a class="navbar-item {% if page.url == callUrl %}is-active{% endif %}"
+          href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
+      </div>
+
+      <!-- <div class="navbar-center is-hidden-touch">
+        <a href="{{ homeUrl | relative_url }}">
+          <img class="logo" alt="{{ site.data.translations.global.paris-call[page.lang] }}" src="{{site.baseurl}}/assets/images/logo-circle-{{ page.lang }}.png" />
+        </a>
+      </div> -->
+
+      <div class="navbar-center is-hidden-touch">
+        <a href="{{ homeUrl | relative_url }}">
+          <img class="logo" alt="{{ site.data.translations.global.paris-call[page.lang] }}" src="{{site.baseurl}}/assets/images/logo.jpeg" />
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item {% if page.url == supportersUrl %}is-active{% endif %}"
+          href="{{ supportersUrl | relative_url }}">{{ site.data.translations.menu.supporters[page.lang] }}</a>
+
+        <a class="navbar-item button is-primary is-rounded is-medium"
+          href="{{ supportUrl | relative_url }}">{{ site.data.translations.menu.support[page.lang] }}</a>
+
+        <div class="dropdown is-right is-hoverable">
+          <div class="dropdown-trigger">
+            <button class="button is-size-5" aria-haspopup="true" aria-controls="lang-dropdown-menu">
+              <span>Language</span>
+              <span class="icon is-small">
+                <i class="icon icon-angle-down" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+          <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
+            <div class="dropdown-content">
+              {% for lang in site.available_languages %}
+              <a href="{{ page.url | replace_first: page.lang, lang | relative_url }}" class="dropdown-item {% if lang == page.lang %}is-active{% endif %}">
+                {{ site.data.translations.lang[lang] }}
+              </a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

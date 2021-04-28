@@ -1,0 +1,6 @@
+should-be-redirected:
+  en: You should be redirected to the page with the most appropriate language given by your browser.
+  zh: 您将被重定向到适合您语言的网页。
+if-not-auto:
+  en: If this does not happen automatically, you can go to the <a href="/en">English version</a> directly.
+  zh: 如果没有自动重定向，请直接点击<a href="/zh">中文版</a>.

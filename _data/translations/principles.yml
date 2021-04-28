@@ -1,0 +1,69 @@
+title:
+  en: The Situation
+  zh: 了解现状
+principle:
+  en: Situation
+  zh: 现状
+principle-1:
+  short:
+    en: Protect individuals and infrastructure
+    zh: Protéger les individus et les infrastructures
+  full:
+    en: Prevent and recover from malicious cyber activities that threaten or cause significant, indiscriminate or systemic harm to individuals and critical infrastructure.
+    zh: Empêcher les cyberactivités malveillantes qui menacent des individus et des infrastructures critiques ou qui leur causent des dommages importants, sans discernement ou systémiques, et y remédier.
+principle-2:
+  short:
+    en: Protect the Internet
+    zh: Protéger l’internet
+  full:
+    en: Prevent activity that intentionally and substantially damages the general availability or integrity of the public core of the Internet.
+    zh: Empêcher les activités qui portent atteinte intentionnellement et dans une large mesure à la disponibilité ou à l’intégrité du cœur public de l’internet.
+principle-3:
+  short:
+    en: Defend electoral processes
+    zh: Défendre les processus électoraux
+  full:
+    en: Strengthen our capacity to prevent malign interference by foreign actors aimed at undermining electoral processes through malicious cyber activities.
+    zh: Développer notre capacité de prévenir les interférences de la part d’acteurs étrangers destinées à déstabiliser des processus électoraux au moyen de cyberactivités malveillantes.
+principle-4:
+  short:
+    en: Defend intellectual property
+    zh: Défendre la propriété intellectuelle
+  full:
+    en: Prevent ICT-enabled theft of intellectual property, including trade secrets or other confidential business information, with the intent of providing competitive advantages to companies or commercial sector.
+    zh: Empêcher le vol de propriété intellectuelle à l’aide des technologies de l’information et de communication, notamment des secrets industriels ou autres informations commerciales confidentielles, dans l’intention de procurer des avantages concurrentiels à des entreprises ou à un secteur commercial.
+principle-5:
+  short:
+    en: Non-proliferation
+    zh: Non-prolifération
+  full:
+    en: Develop ways to prevent the proliferation of malicious software and practices intended to cause harm.
+    zh: Élaborer des moyens d’empêcher la prolifération de logiciels malveillants et de pratiques informatiques destinés à nuire.
+principle-6:
+  short:
+    en: Lifecycle security
+    zh: Sécurité de tout le cycle de vie
+  full:
+    en: Strengthen the security of digital processes, products and services, throughout their lifecycle and supply chain.
+    zh: Accroître la sécurité des processus, produits et services numériques tout au long de leur cycle de vie et d’un bout à l’autre de la chaîne d’approvisionnement.
+principle-7:
+  short:
+    en: Cyber hygiene
+    zh: Hygiène informatique
+  full:
+    en: Support efforts to strengthen an advanced cyber hygiene for all actors.
+    zh: Soutenir les actions visant à développer une hygiène informatique avancée pour tous les acteurs.
+principle-8:
+  short:
+    en: No private hack back
+    zh: Pas de cyber-riposte privée
+  full:
+    en: Take steps to prevent non-State actors, including the private sector, from hacking-back, for their own purposes or those of other non-State actors.
+    zh: Prendre des mesures pour empêcher les acteurs non étatiques, y compris le secteur privé, de mener des actions cyber offensives en réponse à une attaque dont ils seraient victimes, pour leur propre compte ou pour celui d’autres acteurs non étatiques.
+principle-9:
+  short:
+    en: International norms
+    zh: Normes internationales
+  full:
+    en: Promote the widespread acceptance and implementation of international norms of responsible behavior as well as confidence-building measures in cyberspace.
+    zh: Favoriser une large acceptation et la mise en œuvre de normes internationales de comportement responsable ainsi que de mesures de développement de la confiance dans le cyberespace.

@@ -1,0 +1,123 @@
+formats:
+  zh: '%d/%m/%Y'
+  en: '%e %b %Y'
+days:
+  short:
+    Sunday:
+      en: Sun
+      zh: 日
+    Monday:
+      en: Mon
+      zh: 一
+    Tuesday:
+      en: Tue
+      zh: 二
+    Wednesday:
+      en: Wed
+      zh: 三
+    Thursday:
+      en: Thu
+      zh: 四
+    Friday:
+      en: Fri
+      zh: 五
+    Saturday:
+      en: Sat
+      zh: 六
+  long:
+    Sunday:
+      en: Sunday
+      zh: 周日
+    Monday:
+      en: Monday
+      zh: 周一
+    Tuesday:
+      en: Tuesday
+      zh: 周二
+    Wednesday:
+      en: Wednesday
+      zh: 周三
+    Thursday:
+      en: Thursday
+      zh: 周四
+    Friday:
+      en: Friday
+      zh: 周五
+    Saturday:
+      en: Saturday
+      zh: 周六
+months:
+  short:
+    January:
+      en: Jan
+      zh: Jan
+    February:
+      en: Feb
+      zh: Feb
+    March:
+      en: Mar
+      zh: Mar
+    April:
+      en: Apr
+      zh: Apr
+    May:
+      en: May
+      zh: May
+    June:
+      en: Jun
+      zh: Jun
+    July:
+      en: Jul
+      zh: Jul
+    August:
+      en: Aug
+      zh: Aug
+    September:
+      en: Sep
+      zh: Sep
+    October:
+      en: Oct
+      zh: Oct
+    November:
+      en: Nov
+      zh: Nov
+    December:
+      en: Dec
+      zh: Dec
+  long:
+    January:
+      en: January
+      zh: 一月
+    February:
+      en: February
+      zh: 二月
+    March:
+      en: March
+      zh: 三月
+    April:
+      en: April
+      zh: 四月
+    May:
+      en: May
+      zh: 五月
+    June:
+      en: June
+      zh: 六月
+    July:
+      en: July
+      zh: 七月
+    August:
+      en: August
+      zh: 八月
+    September:
+      en: September
+      zh: 九月
+    October:
+      en: October
+      zh: 十月
+    November:
+      en: November
+      zh: 十一月
+    December:
+      en: December
+      zh: 十二月

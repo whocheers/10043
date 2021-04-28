@@ -1,0 +1,66 @@
+.home-page {
+  .hero-body {
+    margin-bottom: 5em;
+
+    .title {
+      max-width: 960px;
+      position: relative;
+      margin: 0 auto 0.75em auto;
+
+      @include desktop {
+        margin-top: 1em;
+      }
+    }
+
+    .subtitle {
+      max-width: 960px;
+      margin: auto;
+      color: $purple-500;
+    }
+
+    .logo {
+      max-height: 6em;
+
+      @include desktop {
+        max-height: 2em;
+      }
+    }
+  }
+
+  .principles-section .columns {
+    @include touch {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  .button-in-text {
+    padding: 1em 0;
+
+    @include desktop {
+      padding: 2em 0 0;
+    }
+  }
+
+  .counters {
+    @include tablet {
+      margin: 3em 0;
+    }
+  }
+
+  .media-header {
+    margin-bottom: 1em;
+
+    .title { font-weight: bold; }
+  }
+
+  .new-supporter {
+    .title {
+      text-transform: capitalize;
+    }
+
+    .tags {
+      margin-bottom: 0;
+    }
+  }
+}

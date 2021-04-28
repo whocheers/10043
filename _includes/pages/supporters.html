@@ -1,0 +1,85 @@
+<div class="page-title">
+  <h1>{{ site.data.translations.supporters.title[page.lang] }}</h1>
+</div>
+
+<section class="section is-medium bg-blue-500">
+  <div class="container">
+    <div class="box">
+      <div class="field has-addons">
+        <div class="control is-expanded">
+          <input id="name-filter" class="input is-medium" type="text"
+            placeholder="{{ site.data.translations.supporters.filter-placeholder[page.lang] }}" spellcheck="false">
+        </div>
+        <div class="control">
+          <a class="button is-primary is-medium is-fullwidth">
+            {{ site.data.translations.supporters.filter-button[page.lang] }}
+          </a>
+        </div>
+      </div>
+      <p class="content has-text-right">{{ site.data.translations.supporters.you-can-download-a[page.lang] }} <a download="paris-call-supporters-{{ site.time | date: '%Y-%m-%d' }}.csv" href="{{ '/supporters.csv' | relative_url }}">{{ site.data.translations.supporters.supporters-spreadsheet[page.lang] }}</a>.</p>
+    </div>
+    <div class="cards columns">
+      {% for category in site.supporter_categories %}
+      {% assign supporters_by_category = site.supporters | where: 'category', category %}
+      {% for supporter in supporters_by_category %}
+      <div class="column is-4" data-supporter-name="{{ supporter.name | escape }}">
+        <div class="card">
+          <div class="card-content">
+            <p class="title">
+              {% if supporter.category == 'state' %}{% include country_name.html supporter=supporter %}{% else %}{{ supporter.name | escape }}{% endif %}
+            </p>
+            <p class="subtitle">
+              {{ supporter.nature }}
+            </p>
+          </div>
+          <footer class="card-footer {{ supporter.category }}">
+            <p class="card-footer-item">
+              <span>
+                {{ site.data.translations.supporters[supporter.category][page.lang] }}
+                {% if supporter.nationality and supporter.category != 'state' %}&nbsp;({% include country_name.html supporter=supporter %}){% endif %}
+              </span>
+            </p>
+          </footer>
+        </div>
+      </div>
+      {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% include support-cta.html %}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let filterInput = document.querySelector('#name-filter');
+    filterInput.onkeyup = changeEventHandler;
+    filterInput.addEventListener("search", changeEventHandler);
+  }, false);
+
+  function changeEventHandler(event) {
+    let filterValue = event.target.value;
+
+    document.querySelectorAll('[data-supporter-name]').forEach(function (element) {
+      if (!filterValue) {
+        showElement(element);
+        return;
+      }
+
+      let elementValue = element.attributes["data-supporter-name"].value;
+      let lowercasedFilterValue = filterValue.toLowerCase();
+      if (!elementValue.toLowerCase().includes(lowercasedFilterValue)) {
+        hideElement(element);
+      } else {
+        showElement(element);
+      }
+    });
+  }
+
+  function hideElement(element) {
+    element.style.display = "none";
+  }
+
+  function showElement(element) {
+    element.style.display = "flex";
+  }
+
+</script>
