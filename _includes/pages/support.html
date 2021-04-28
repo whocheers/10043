@@ -3,40 +3,25 @@
     <h1>{{ site.data.translations.support.title[page.lang] }}</h1>
   </div>
 </div>
-<section class="section is-small bg-blue-100">
-  <div class="container content is-size-5">
-    <div class="typeform-widget" data-url="{{ site.typeform_urls.support[page.lang] }}" data-transparency="100"
-      data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;">
-      <div class="adp-spinner-wrapper">
-        <div class="adp-spinner"></div>
+
+<section class="section is-medium bg-blue-500">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        {% capture support_text %}{% include pages/texts/{{ page.lang }}/support/intro.md %}{% endcapture %}
+        {{ support_text | markdownify }}
       </div>
     </div>
-    <script>
-      (function () {
-        var qs, js, q, s, d = document,
-          gi = d.getElementById,
-          ce = d.createElement,
-          gt = d.getElementsByTagName,
-          id = "typef_orm",
-          b = "https://embed.typeform.com/";
-        if (!gi.call(d, id)) {
-          js = ce.call(d, "script");
-          js.id = id;
-          js.src = b + "embed.js";
-          q = gt.call(d, "script")[0];
-          q.parentNode.insertBefore(js, q)
-        }
-      })()
-
-    </script>
-    <p class="content has-text-centered is-size-7">
-      {{ site.data.translations.support.typeform-fallback-link[page.lang] | replace: '%href', site.typeform_urls.support[page.lang] }}
-    </p>
   </div>
 </section>
 
-<section class="section call">
+<section class="section is-medium principles-section">
   <div class="container content is-size-5">
-    {% include counters.html %}
+    <div class="columns">
+      <div class="column">
+        {% capture joinus_text %}{% include pages/texts/{{ page.lang }}/support/joinus.md %}{% endcapture %}
+        {{ joinus_text | markdownify }}
+      </div>
+    </div>
   </div>
 </section>

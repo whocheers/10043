@@ -1,9 +1,9 @@
 subtitle:
   en: For freedom and justice in academic exchange
-  zh: 为了自由和公正的学术交流
+  zh: 维护学术自由，取消10043禁令
 principles-button:
-  en: Discover the situation
-  zh: 了解现状
+  en: Discover PP10043
+  zh: 了解10043
 state:
   en: Scholar
   zh: 学者
@@ -15,7 +15,7 @@ private-sector:
   zh: 公司
 news-title:
   en: News
-  zh: 最新消息
+  zh: 最新进展
 events-title:
   en: Events
   zh: 行动记录
@@ -28,3 +28,6 @@ joined:
 suggest-event:
   en: Suggest an event
   zh: 提议新行动
+project-doc:
+  en: View the Project Document
+  zh: 查看计划书

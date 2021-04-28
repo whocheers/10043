@@ -4,7 +4,7 @@
   </div>
 </div>
 
-{% for number in (1..9) %}
+{% for number in (1..2) %}
 {% capture principle_id %}principle-{{ number }}{% endcapture %}
 <section class="section is-medium bg-blue-800 principle" id="principle-{{ number }}">
   <div class="container">
@@ -18,15 +18,15 @@
         <h2 class="title is-2 is-spaced">
           {{ site.data.translations.principles[principle_id].short[page.lang] }}
         </h2>
-        <h3 class="subtitle is-4">
+        <!-- <h3 class="subtitle is-4">
           {{ site.data.translations.principles[principle_id].full[page.lang] }}
-        </h3>
+        </h3> -->
       </div>
     </div>
   </div>
 </section>
 {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-<section class="section is-medium bg-blue-200 case-study">
+<!-- <section class="section is-medium bg-blue-200 case-study">
   <div class="container">
     <div class="columns">
       {% assign image_path = '' %}
@@ -53,7 +53,7 @@
       {% endif %}
     </div>
   </div>
-</section>
+</section> -->
 {% endfor %}
 
 {% include support-cta.html %}
