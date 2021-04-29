@@ -18,8 +18,12 @@
           <a href="{{ principlesUrl | relative_url }}">{{ site.data.translations.menu.principles[page.lang] }}</a>
         </li>
         <li class="{% if page.url == callUrl %}is-active{% endif %}">
-          <!-- <a href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a> -->
-          <a href="{{ docUrl }}" target="_blank">{{ site.data.translations.menu.call[page.lang] }}</a>
+          <a href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
+          <!-- <a href="{{ docUrl }}" target="_blank">{{ site.data.translations.menu.call[page.lang] }}</a> -->
+        </li>
+
+        <li class="{% if page.url == newsUrl %}is-active{% endif %}">
+          <a href="{{ newsUrl | relative_url }}">{{ site.data.translations.menu.news[page.lang] }}</a>
         </li>
         <li class="{% if page.url == supportUrl %}is-active{% endif %}">
           <a href="{{ supportUrl | relative_url }}">{{ site.data.translations.menu.support[page.lang] }}</a>
@@ -43,10 +47,10 @@
         <a class="navbar-item {% if page.url == principlesUrl %}is-active{% endif %}"
           href="{{ principlesUrl | relative_url }}">{{ site.data.translations.menu.principles[page.lang] }}</a>
 
-        <!--<a class="navbar-item {% if page.url == callUrl %}is-active{% endif %}"
-          href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>-->
-        <a class="navbar-item {% if page.url == callUrl %}is-active{% endif %}" target="_blank"
-          href="{{ docUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
+        <a class="navbar-item {% if page.url == callUrl %}is-active{% endif %}"
+          href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
+        <!-- <a class="navbar-item {% if page.url == callUrl %}is-active{% endif %}" target="_blank"
+          href="{{ docUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a> -->
       </div>
 
       <div class="navbar-center is-hidden-touch">
