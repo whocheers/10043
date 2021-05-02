@@ -1,19 +1,11 @@
-### Protection du système de noms de domaines (DNS) : l’entreprise française Nameshield garantit identité et résilience
+我是北航14级本科生，18年毕业。
 
-La protection de la disponibilité et de l’intégrité du cœur public de l’internet exige une étroite coopération entre différents types d’acteurs, notamment la Société pour l’attribution des noms de domaines et des numéros sur Internet (ICANN), organisation à but non lucratif, et des entreprises privées comme Nameshield. Cette entreprise française indépendante garantit la protection de l’identité et la résilience de l’internet grâce à ses propres infrastructures DNS résilientes et basées sur la diffusion.
+其实一直对美国都挺有好感的吧，从初中开始。很早就坚定了赴美深造的想法。毕竟美国的高等教育也是世界上独树一帜的存在。从大三开始就准备暑研，然后成功地在明尼苏达双城和华盛顿大学有两段不错的经历。毕业后去南加大读硕士，方向是量子计算，后来博士留在南加大也是自然的选择。
 
-Le système de noms de domaines est une sorte d’annuaire de l’internet, dont il est un pilier fondamental. Ce dispositif traduit un nom de domaine en une adresse de protocole internet, à partir d’une base de données répartie sur des milliers d’ordinateurs. En cas de défaillance du système de noms de domaines provoquée par une altération des données ou par une attaque par déni de service, les sites internet et les messageries électroniques ne sont plus accessibles. Il est donc indispensable de garantir la protection et la disponibilité du système de noms de domaines.
+硕士一年半的时间过得充实而有趣，然而一直没回家，所以决定在2020年1月回湖北看看家人。打算在国内待半年，找个实习，然后秋季返校，然而一切都被飞来横祸打乱了计划…
 
-Pour traiter les vulnérabilités de ce système, un nouveau protocole, appelé extensions de sécurité du système des noms de domaine (DNSSEC), a été élaboré avec le soutien de l’ICANN. D’autres solutions, comme le verrouillage de registre ou les certificats SSL (Secure Socket Layer) peuvent aussi permettre de garantir la résilience de l’identité. En protégeant les données sur des cartes d’identité de noms de domaines et en offrant un service de haute disponibilité, Nameshield contribue au deuxième principe de l’Accord de Paris et protège le cœur public de l’internet.
+首先是新冠疫情吧，湖北的居家封锁非常严格，在家的那两月人被关的有点抑郁，疯狂长胖20斤。后来随着病毒扩散至全球，发现美国在处理疫情的问题上逐渐消极。随即大约在4，5月份时川普也给连任的选举策略定调，就是反中，总统令10043在这个大环境下出现。9月的时候2018年申请的硕士5年签证被撤销，所谓国防七子以及北邮同学签证被拒的噩耗也不断出现，心态开始有点崩溃，每天早上醒来就想哭，但是想着咬咬牙等着，说不定拜登赢得大选会重新欢迎我们中国留学生。
 
-[Nameshield](https://www.nameshield.com/)
+11月美国大选开始，每天都在刷两位候选人的票数，每次看到关键的摇摆州从红翻蓝都欣喜若狂，仿佛只要拜登赢下选举我就能重新被美国欢迎，就像当年申请J签F签那样一切顺利的回去。
 
-### "Public Core CoI" : Le Centre d'études stratégiques de la Haye (HCSS) initie une communauté d'intérêt sur la protection du coeur public de l'Internet
-
-La coopération de toutes les parties prenantes est nécessaire pour répondre aux menaces qui visent les principaux protocoles et services de l'Internet mondial. La plupart des infrastructures, services et produits sous-tendant Internet appartiennent en effet au secteur privé ou sont régis et entretenus par la société civile sous forme de communautés techniques. 
-
-Si l'idée de protéger les fonctions essentielles d'Internet n'est pas nouvelle, ce n'est que récemment que cette notion a fait l'objet de plusieurs propositions de normes, venant notamment de la Commission mondiale sur la stabilité du cyberespace (GCSC) initiée par le Centre d'études stratégiques de La Haye (The Hague Center for Strategic Studies - HCSS). S'appuyant sur le rapport de la GCSC intitulé "Faire progresser la cyber-stabilité", qui appelle à la création de communautés d'intérêt, le HCSS lance une communauté d'intérêt sur la protection du coeur public de l'Internet ("Public Core CoI"). Cette initiative rassemblera les acteurs engagés pour protéger le coeur public de l'Internet au sein d'un groupe de travail qui se réunira régulièrement. 
-
-Ce groupe discutera de la nécessité de préciser davantage le principe de protection du coeur public de l'Internet, d'explorer les options de mise en oeuvre et de suivi de ce principe, ainsi que les normes associées. Il réunira les principales parties prenantes afin de les sensibiliser aux menaces qui pèsent sur les protocoles et fonctions de base d'Internet, de concevoir des bonnes pratiques et des propositions de politiques publiques et d'élaborer un cadre commun définissant les violations de ce principe. Les organisations qui souhaitent rejoindre cette communauté d'intérêt peuvent écrire à cyber@hcss.nl. 
-
-[Le Centre d'études stratégiques de La Haye (HCSS)](https://hcss.nl/)
+事实并非如此，新政府推翻了很多政策，然而对华政策几乎没有任何改变。我4月初来到新加坡申请F1签证也被总统令10043拒绝，求助于学校也无法获得有效的帮助，我想大概这就是我接受美国教育的终点了吧。非常悲伤难过，我们被拒绝去美国当学生并不是因为我们犯下了什么过错，而是因为我们的本科学校，很荒谬也很无奈，在美中对抗的大环境下感觉10043松绑的机会十分渺茫。时代的灰尘落在一个人身上就是一座大山…

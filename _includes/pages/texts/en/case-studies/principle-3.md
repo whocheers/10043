@@ -1,21 +1,7 @@
-### Protecting the integrity of democratic elections: The Transatlantic Commission on Election Integrity (TCEI) helps advancing solutions
+我于2020年二月收到了美国大学的物理学博士offer，但是因为疫情加上pp10043无法获得有效签证，不得不选择了在十二小时时差的中国日夜颠倒上网课。
 
-Election interference is a major threat to the universal right of people to take part in the democratic process. Still, democratic governments and technology companies around the world are scrambling to meet the challenges of the latest election meddling tactics and technologies. This is a global phenomenon, with instances of election interference seen in countries from Mexico to North-Macedonia, Ukraine to Kenya, Taiwan to Turkey.
+这一年，我无法正常的生活：昼伏夜出，没有任何社交；在学业压力之下，还要时不时受到是否能够获得有效签证的焦虑情绪干扰。很多个无人的夜里，我都饱受悲伤，愤怒，焦虑情绪折磨。
 
-Yet, attacks and coordinated manipulation are no longer coming from foreign malign powers alone: increasingly, the cross-border disinformation playbook is used by domestic actors trying to sow division and polarization in both authoritarian and democratic contexts.
+我只是一个清白的学生，却受到了来自pp10043的不公平对待，仅仅是因为我在七子之一的大学读过书？我时刻关注着和我一样的人，他们因为pp10043毫无根据地被reject签证。pp10043是一个不公平的政策，它阻断了学术自由，阻断了学术交流，更伤害了无数像我一样为了学术梦想而不断学习的无辜学生的学业。
 
-The TCEI brings together committed and eminent persons from different backgrounds with one shared goal: to ensure people decide freely, based on independent information, who should represent them. Transatlantic and bipartisan in nature, the TCEI seeks to share best practice between decision-makers and institutions across the democratic world, raise public awareness about the risks of interference while applying on the ground new models and technologies to empower civil society and governments to defend democracy. The TCEI is an initiative of the Alliance of Democracies Foundation founded by Anders Fogh Rasmussen in 2017.
-
-[Transatlantic Commission on Election Integrity](https://www.allianceofdemocracies.org/transatlantic-commission-on-election-integrity/)
-
-### Countering election interference:the Alliance for Securing Democracy, the Government of Canada and Microsoft are working to prevent malign interference by foreign actors
-
-The Alliance for Securing Democracy (ASD), the Government of Canada, and Microsoft are working together to strenghten the collective capacity to prevent malign interference by foreign actors aimed at undermining electoral processes through malicious cyber activities.
-
-Throughout 2020, they brought the global community together through the organization of multistakeholder workshops, each one addressing a critical topic related to preventing interference in electoral processes. During these workshops, key observations, ideas and effective practices were collected from a diverse group of experts, practitioners and stakeholders. 
-
-Summaries of these practices are available here: [https://www.canada.ca/en/democratic-institutions/services/paris-call-trust-security-cyberspace.html](https://www.canada.ca/en/democratic-institutions/services/paris-call-trust-security-cyberspace.html). 
-
-A more in-depth compendium is planned for the first quarter of 2021.
-
-[Microsoft](https://www.microsoft.com/), the [Alliance for Securing Democracy](https://securingdemocracy.gmfus.org/) and the Government of Canada
+恳请撤销pp10043，重建学术交流之路！

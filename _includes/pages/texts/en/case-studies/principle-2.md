@@ -1,19 +1,11 @@
-### Protecting the Domain Name System: French company Nameshield ensures identity integrity and resilience
+我是北航14级本科生，18年毕业。
 
-Protecting the availability and the integrity of the public core of the Internet requires close cooperation between different types of actors, including non-profit organization ICANN (Internet Corporation for Assigned Names and Numbers) and private companies such as Nameshield. An independent French company, Nameshield ensures identity integrity and resilience on the Internet with its own caste-based, resilient DNS infrastructures.
+其实一直对美国都挺有好感的吧，从初中开始。很早就坚定了赴美深造的想法。毕竟美国的高等教育也是世界上独树一帜的存在。从大三开始就准备暑研，然后成功地在明尼苏达双城和华盛顿大学有两段不错的经历。毕业后去南加大读硕士，方向是量子计算，后来博士留在南加大也是自然的选择。
 
-Cornerstone of the Web, the Domain Name System (DNS) serves as the Internet directory. This protocol translates a domain name into an IP address, based on a database distributed on thousands of machines. If the DNS falls because of data corruption or a denial of service attack, websites and emails become inaccessible.
+硕士一年半的时间过得充实而有趣，然而一直没回家，所以决定在2020年1月回湖北看看家人。打算在国内待半年，找个实习，然后秋季返校，然而一切都被飞来横祸打乱了计划…
 
-It is crucial to guarantee the protection and availability of DNS. A new protocol, DNSSEC, has thus been developed with the support of ICANN to address vulnerabilities in the DNS. Other solutions can help ensure identity resilience, such as Registry Lock or SSL certificates. By protecting data on domain name identity cards and providing a high availability service, Nameshield contributes to the second principle of the Paris Call and protects the public core of the Internet.
+首先是新冠疫情吧，湖北的居家封锁非常严格，在家的那两月人被关的有点抑郁，疯狂长胖20斤。后来随着病毒扩散至全球，发现美国在处理疫情的问题上逐渐消极。随即大约在4，5月份时川普也给连任的选举策略定调，就是反中，总统令10043在这个大环境下出现。9月的时候2018年申请的硕士5年签证被撤销，所谓国防七子以及北邮同学签证被拒的噩耗也不断出现，心态开始有点崩溃，每天早上醒来就想哭，但是想着咬咬牙等着，说不定拜登赢得大选会重新欢迎我们中国留学生。
 
-[Nameshield](https://www.nameshield.com/)
+11月美国大选开始，每天都在刷两位候选人的票数，每次看到关键的摇摆州从红翻蓝都欣喜若狂，仿佛只要拜登赢下选举我就能重新被美国欢迎，就像当年申请J签F签那样一切顺利的回去。
 
-### Public Core CoI: the Hague Centre for Strategic Studies will lead a community of interest on protecting the public core of the Internet
-
-Responding to threats against the core protocols and services of the global Internet requires the cooperation of the full range of stakeholders. Most of the infrastructure, services, and products underpinning it are privately-owned, or governed and maintained by the civil society functioning as a technical community.
-
-Whilst the idea of protecting the core Internet functions has a longer history, the notion only recently became the subject of various norm proposals, most notably by the Global Commission on the Stability of Cyberspace (GCSC), which was initiated by the The Hague Centre for Strategic Studies (HCSS). Building on the GCSC Report "Advancing Cyberstability" which calls for the adoption of specific "Communities of Interest", HCSS will lead a "Community of Interest on Protecting the Public Core of the Internet" (Public Core CoI). This concerted multistakeholder initiative will gather committed supporters for the general principle of protecting the public core in a regular working group.
-
-This group will likely examine the need to further refine the concept, discuss propagation, and explore options for implementation and monitoring of the principle as well as related norms. It will convene key stakeholders to raise awareness of the threats against the core Internet protocols and functions, develop best practices and policy proposals for adoption and implementation, and advance common understandings of violations of the principle. Organizations interested in joining the Public Core CoI can write to cyber@hcss.nl.
-
-[The Hague Centre for Strategic Studies](https://hcss.nl/)
+事实并非如此，新政府推翻了很多政策，然而对华政策几乎没有任何改变。我4月初来到新加坡申请F1签证也被总统令10043拒绝，求助于学校也无法获得有效的帮助，我想大概这就是我接受美国教育的终点了吧。非常悲伤难过，我们被拒绝去美国当学生并不是因为我们犯下了什么过错，而是因为我们的本科学校，很荒谬也很无奈，在美中对抗的大环境下感觉10043松绑的机会十分渺茫。时代的灰尘落在一个人身上就是一座大山…

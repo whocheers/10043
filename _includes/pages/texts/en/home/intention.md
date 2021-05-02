@@ -1,7 +1,9 @@
-## 呼吁集体诉讼，维护学术自由
+## Call for United Actions to Protect Academic Freedom
 
-目前我们在针对PP 10043发起集体诉讼。诉讼可行性：此前H1B 相关的 proclamation 也是学生带头阻止的，所以对于10043的case咱们也是可以通过法律解决的。目前我们已经和之前成功实现opt诉讼的学长学姐们请教了诉讼经验。我们会尽快开始筹划，寻找律师。目前需要大家扩大影响，让有参与诉讼意愿的同学知道、参与到这件事，希望大家积极转发。还希望大家帮忙咨询自己学校的法律部门、收集学校推荐的律师资源，一起努力推掉这个不公平的禁令。如果大家愿意出一分力，欢迎兄弟姐妹们加入共同推动这件事！
+We are currently issuing a united lawsuit against PP 10043. Litigation feasibility: The H1B-related proclamation was previously blocked by lawsuits started by students, so we can also resolve the case of 10043 by law. At present, we have consulted with the experienced ones who have successfully implemented OPT litigation. We will start planning as soon as possible and look for lawyers. 
 
-我们已经有20人核心团队在结合H1B，OPT诉讼成功的同学们，一起推进诉讼相关的事情。
+At present, we hope everyone expand their influence so that students who are willing to participate in the litigation will know and join us. We hope you will actively forward this call. We also hope that everyone can help consult the legal department of their school, collect the lawyer resources recommended by the school, and work together to push down this unfair prohibition. If you are willing to contribute, welcome to join us!
 
-已经有800+人的加入微信群表示愿意支持。
+We already have a core team of 30 who are collaborating with students who have succeeded in the H1B and OPT litigation to advance litigation-related matters.
+
+Already 1k+ people have joined our WeChat group and expressed their willingness to support.
