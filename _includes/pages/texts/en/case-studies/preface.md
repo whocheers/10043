@@ -1,6 +1,6 @@
 ## PP10043 Harms International Academic Exchange
 
-Trump signed PP10043 in May 2020. The executive order stipulates that during visa review, visa officers can refuse to issue F and J visas to the U.S. based on that students and scholars are studying certain majors and research directions, or the schools they attended are sensitive, or they receive living subsidies from the China Scholarship Council (CSC). This statement may affect various groups of people:
+Former US President Mr. Trump signed PP10043 in May 2020. The executive order stipulates that during visa review, visa officers can refuse to issue F and J visas to the U.S. based on that students and scholars are studying certain majors and research directions, or the schools they attended are sensitive, or they receive living subsidies from the China Scholarship Council (CSC). This statement may affect various groups of people:
 
 - Researchers and teachers who plan to go to the United States for exchange visits, post-doctorate researchers and teachers, cannot obtain an exchange visa to travel to the United States;
 - Students currently working under OPT in the United States cannot return to China to visit relatives, and may affect the opportunity to get an H1B;
