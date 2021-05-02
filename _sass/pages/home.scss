@@ -27,7 +27,7 @@
     }
   }
 
-  .principles-section .columns {
+  .stories-section .columns {
     @include touch {
       display: flex;
       flex-direction: column-reverse;

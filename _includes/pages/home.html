@@ -24,8 +24,8 @@
         {% capture pp10043_text %}{% include pages/texts/{{ page.lang }}/home/pp10043.md %}{% endcapture %}
         {{ pp10043_text | markdownify }}
         <p class="button-in-text has-text-centered">
-          <a href="{{ '/principles' | prepend: page.lang | relative_url }}"
-            class="button is-primary is-rounded is-medium">{{ site.data.translations.home.principles-button[page.lang] }}</a>
+          <a href="{{ '/stories' | prepend: page.lang | relative_url }}"
+            class="button is-primary is-rounded is-medium">{{ site.data.translations.home.stories-button[page.lang] }}</a>
         </p>
       </div>
       <div class="column is-5 is-hidden-touch">
@@ -36,7 +36,7 @@
     </div>
   </div>
 </section>
-<section class="section is-medium principles-section">
+<section class="section is-medium stories-section">
   <div class="container content is-size-5">
     <div class="columns">
       <div class="column is-5 is-hidden-touch">

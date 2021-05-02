@@ -1,6 +1,6 @@
 <div class="container">
   <div class="page-title">
-    <h1>{{ site.data.translations.principles.title[page.lang] }}</h1>
+    <h1>{{ site.data.translations.stories.title[page.lang] }}</h1>
   </div>
 </div>
 
@@ -16,21 +16,21 @@
 </section>
 
 {% for number in (1..3) %}
-{% capture principle_id %}principle-{{ number }}{% endcapture %}
-<section class="section is-medium bg-blue-800 principle" id="principle-{{ number }}">
+{% capture story_id %}story-{{ number }}{% endcapture %}
+<section class="section is-medium bg-blue-800 story" id="story-{{ number }}">
   <div class="container">
     <div class="index is-hidden-touch">
-      <span class="index__prefix">{{ site.data.translations.principles.principle[page.lang] }}</span>
+      <span class="index__prefix">{{ site.data.translations.stories.story[page.lang] }}</span>
       <span class="index__number">{{ number }}</span>
     </div>
     <div class="columns">
       <div class="column is-offset-3-desktop is-7-desktop">
-        <h4 class="index-mobile title is-4 is-hidden-desktop">{{ site.data.translations.principles.principle[page.lang] }}&nbsp;{{ number }}</h4>
+        <h4 class="index-mobile title is-4 is-hidden-desktop">{{ site.data.translations.stories.story[page.lang] }}&nbsp;{{ number }}</h4>
         <h2 class="title is-2 is-spaced">
-          {{ site.data.translations.principles[principle_id].short[page.lang] }}
+          {{ site.data.translations.stories[story_id].short[page.lang] }}
         </h2>
         <h3 class="subtitle is-4">
-          {{ site.data.translations.principles[principle_id].full[page.lang] }}
+          {{ site.data.translations.stories[story_id].full[page.lang] }}
         </h3>
       </div>
     </div>
@@ -42,8 +42,8 @@
     <div class="columns">
       {% assign image_path = '' %}
       {% for image in site.static_files %}
-        {% capture image_path_jpg %}/assets/images/case-studies/principle-{{ number }}.jpg{% endcapture %}
-        {% capture image_path_png %}/assets/images/case-studies/principle-{{ number }}.png{% endcapture %}
+        {% capture image_path_jpg %}/assets/images/case-studies/story-{{ number }}.jpg{% endcapture %}
+        {% capture image_path_png %}/assets/images/case-studies/story-{{ number }}.png{% endcapture %}
         {% if image.path contains image_path_jpg %}
           {% assign image_path = image_path_jpg %}
         {% elsif image.path contains image_path_png %}
@@ -52,7 +52,7 @@
       {% endfor %}
 
       <div class="column content">
-        {% capture case_study %}{% include pages/texts/{{ page.lang }}/case-studies/principle-{{ number }}.md %}{% endcapture %}
+        {% capture case_study %}{% include pages/texts/{{ page.lang }}/case-studies/story-{{ number }}.md %}{% endcapture %}
         {{ case_study | markdownify }}
       </div>
       {% if image_path != '' %}
