@@ -67,4 +67,12 @@
 </section>
 {% endfor %}
 
-{% include support-cta.html %}
+<section class="section {% if include.spacing %}{{ include.spacing }}{% else %}is-medium{% endif %} {{ include.bg-color }}">
+  <div class="container content is-size-5 has-text-centered">
+    <h3 class="title is-4">{{ site.data.translations.global.all-can-commmit[page.lang] }}</h3>
+    <p>
+      <a href={{site.questionnaire_url}} target="_blank"
+        class="button is-primary is-rounded is-large">{{ site.data.translations.home.questionnaire-title[page.lang] }}</a>
+    </p>
+  </div>
+</section>
