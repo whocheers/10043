@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-        {% assign events = site.events | sort: 'start_date' %}
+        {% assign events = site.events | sort: 'start_date' | reverse %}
         {% for event in events %}
         {% include event.html event=event %}
         {% endfor %}
