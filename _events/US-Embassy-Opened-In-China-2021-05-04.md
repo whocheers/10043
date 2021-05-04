@@ -8,9 +8,9 @@ end_date: 2021-05-04
 hashtag: "#10043"
 openness_level: public
 ---
-国内已重新开签，但PP10043仍然严格执行。放弃幻想，只能诉讼。
+国内已重新开签，但[最新面签结果](https://docs.qq.com/sheet/DWXhmY1J3T1lCUnpI)显示，PP10043仍然严格执行。放弃幻想，只能诉讼。
 
-On May 4, 2021, The US Embassy in China has reopened to process visa applications. However, interviewees have reported that they are still being refused under PP10043. It is time to cast away illusions and go for a lawsuit.
+On May 4, 2021, The US Embassy in China has reopened to process visa applications. However, [interviewees have reported](https://docs.qq.com/sheet/DWXhmY1J3T1lCUnpI) that they are still being refused under PP10043. It is time to cast away illusions and go for a lawsuit.
 
 可行的筹款渠道：[https://www.gofundme.com/](https://www.gofundme.com/)
 
