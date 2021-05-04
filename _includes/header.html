@@ -17,11 +17,9 @@
         <li class="{% if page.url == storiesUrl %}is-active{% endif %}">
           <a href="{{ storiesUrl | relative_url }}">{{ site.data.translations.menu.stories[page.lang] }}</a>
         </li>
-        <li class="{% if page.url == callUrl %}is-active{% endif %}">
-          <a href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
-          <!-- <a href="{{ docUrl }}" target="_blank">{{ site.data.translations.menu.call[page.lang] }}</a> -->
+        <li class="{% if page.url == supportersUrl %}is-active{% endif %}">
+          <a href="{{ supportersUrl | relative_url }}">{{ site.data.translations.menu.supporters[page.lang] }}</a>
         </li>
-
         <li class="{% if page.url == newsUrl %}is-active{% endif %}">
           <a href="{{ newsUrl | relative_url }}">{{ site.data.translations.menu.news[page.lang] }}</a>
         </li>
@@ -47,10 +45,11 @@
         <a class="navbar-item {% if page.url == storiesUrl %}is-active{% endif %}"
           href="{{ storiesUrl | relative_url }}">{{ site.data.translations.menu.stories[page.lang] }}</a>
 
-        <a class="navbar-item {% if page.url == callUrl %}is-active{% endif %}"
-          href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
-        <!-- <a class="navbar-item {% if page.url == callUrl %}is-active{% endif %}" target="_blank"
-          href="{{ docUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a> -->
+        <!-- <a class="navbar-item {% if page.url == callUrl %}is-active{% endif %}"
+          href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a> -->
+
+        <a class="navbar-item {% if page.url == supportersUrl %}is-active{% endif %}"
+          href="{{ supportersUrl | relative_url }}">{{ site.data.translations.menu.supporters[page.lang] }}</a>
       </div>
 
       <div class="navbar-center is-hidden-touch">
@@ -60,8 +59,6 @@
       </div>
 
       <div class="navbar-end">
-        <!-- <a class="navbar-item {% if page.url == supportersUrl %}is-active{% endif %}"
-          href="{{ supportersUrl | relative_url }}">{{ site.data.translations.menu.supporters[page.lang] }}</a> -->
 
         <a class="navbar-item {% if page.url == newsUrl %}is-active{% endif %}"
           href="{{ newsUrl | relative_url }}">{{ site.data.translations.menu.news[page.lang] }}</a>
